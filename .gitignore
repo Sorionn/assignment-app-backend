@@ -1,0 +1,19 @@
+# Python System Files
+venv/
+__pycache__/
+*.pyc
+
+# Environment Variables (Secrets)
+.env
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Database (NEVER upload this)
+*.db
+*.sqlite3
+sql_app.db
+
+# File Uploads (Privacy & Space)
+uploads/
