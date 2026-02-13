@@ -16,4 +16,9 @@ __pycache__/
 sql_app.db
 
 # File Uploads (Privacy & Space)
-uploads/
+# Ignore everything inside the uploads folder
+uploads/*
+
+# BUT do not ignore the .gitkeep files that keep the folders alive
+!uploads/.gitkeep
+!uploads/submissions/.gitkeep
